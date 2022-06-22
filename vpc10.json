@@ -73,15 +73,7 @@
          "Tags":[{ "Key": "Name", "Value":  "myfirstvpcPubsub" }]
       }
     },
-    "myfirstvpcPubsub1": {
-      "Type": "AWS::EC2::Subnet",
-      "Properties": {
-        "AvailabilityZone": "us-east-1",
-        "VpcId":{ "Ref": "myfirstvpc" },
-        "CidrBlock": "10.0.3.0/18",
-         "Tags":[{ "Key": "Name", "Value":  "myfirstvpcPubsub1" }]
-      }
-    },
+   
     "myfirstvpcPrisub": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
